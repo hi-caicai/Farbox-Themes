@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch Beta 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 1 + Rectangle 3 + Rectangle 3 Copy</title>
+    <desc>Created with Sketch Beta.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#85CCFF" offset="0%"></stop>
+            <stop stop-color="#9949E2" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
+            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.974096433   0 0 0 0 0.974096433  0 0 0 0.224377264 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#E9E9E9" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0523890399 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="tt" sketch:type="MSArtboardGroup" transform="translate(-689.000000, -131.000000)">
+            <g id="Farbox-themes-+-Now-you-can-choose-m-+-Rectangle-1-+-Rectangle-3-+-Rectangle-3-Copy" sketch:type="MSLayerGroup" transform="translate(500.000000, 131.000000)">
+                <g id="Rectangle-1-+-Rectangle-3-+-Rectangle-3-Copy" transform="translate(189.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-1" fill="url(#linearGradient-1)" filter="url(#filter-2)" x="0" y="0" width="34" height="34" rx="100"></rect>
+                    <g id="Rectangle-3-+-Rectangle-3-Copy" transform="translate(9.000000, 8.000000)" filter="url(#filter-4)" fill="url(#linearGradient-3)">
+                        <path d="M0,1.00375749 C0,0.449397536 0.449802085,0 1.00029718,0 L15.1857888,0 C15.7382377,0 16.186086,0.444522848 16.186086,1.00375749 L16.186086,16.2766081 C16.186086,16.830968 15.7362839,17.2803656 15.1857888,17.2803656 L1.00029718,17.2803656 C0.447848302,17.2803656 0,16.8358427 0,16.2766081 L0,1.00375749 Z M2,4.5 C2,4.22385763 2.22765279,4 2.50964952,4 L11.4903505,4 C11.7718221,4 12,4.23193359 12,4.5 C12,4.77614237 11.7723472,5 11.4903505,5 L2.50964952,5 C2.22817786,5 2,4.76806641 2,4.5 Z M2,6.5 C2,6.22385763 2.21484375,6 2.49769878,6 L6.50230122,6 C6.77717266,6 7,6.23193359 7,6.5 C7,6.77614237 6.78515625,7 6.50230122,7 L2.49769878,7 C2.22282734,7 2,6.76806641 2,6.5 Z M2,8.5 C2,8.22385763 2.23290253,8 2.50342274,8 L8.49657726,8 C8.77460996,8 9,8.23193359 9,8.5 C9,8.77614237 8.76709747,9 8.49657726,9 L2.50342274,9 C2.22539004,9 2,8.76806641 2,8.5 Z M2,10.5 C2,10.2238576 2.22765279,10 2.50964952,10 L11.4903505,10 C11.7718221,10 12,10.2319336 12,10.5 C12,10.7761424 11.7723472,11 11.4903505,11 L2.50964952,11 C2.22817786,11 2,10.7680664 2,10.5 Z M2,12.5 C2,12.2238576 2.21484375,12 2.49769878,12 L6.50230122,12 C6.77717266,12 7,12.2319336 7,12.5 C7,12.7761424 6.78515625,13 6.50230122,13 L2.49769878,13 C2.22282734,13 2,12.7680664 2,12.5 Z" id="Rectangle-3-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
